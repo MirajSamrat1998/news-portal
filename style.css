@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* global css */
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+    background: linear-gradient(45deg, wheat, khaki);
+    min-height: 100vh;
+}
+
+.dashboard_icon_box > i {
+  position: relative;
+  font-size: 25px;
+  color: wheat;
+  cursor: pointer;
+}
+#das_sec {
+  position: absolute;
+  background-color: rgb(43, 48, 53);
+  right: 80px;
+  top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+  z-index: 999;
+}
+#das_sec div img {
+  width: 50px;
+}
+
+.menus {
+  width: 100%;
+}
+.menus ul {
+  width: 100%;
+  padding: 0 10px;
+}
+.menus ul li {
+  list-style: none;
+  background-color: rgb(85, 85, 81);
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px 50px 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.menus ul li:hover {
+  background-color: rgb(65, 65, 62);
+}
+
+/* sign Up Form */
+#signUpForm {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.signupBody {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.m_slider {
+  height: 90vh;
+  overflow: hidden;
+  z-index: 10 !important;
+}
+.m_heding {
+  position: relative;
+  height: 90vh;
+}
+
+.breking_news_title h1 {
+  font-size: 2rem;
+}
+.breking_news_title {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #0000007e;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
+/* m_top_news_card */
+.m_top_news_card{
+    box-shadow: 5px 5px 10px rgb(117, 112, 68);
+}
+
+
+/* GPT CSS */
+/* Add this CSS for smooth transition */
+.m_top_news_card p {
+  transition: max-height 0.5s ease-out;
+  overflow: hidden;
+}
+
+.m_top_news_card .collapsed-content {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+.m_top_news_card .expanded-content {
+  max-height: 500px; /* or large enough to fit the full content */
+}
+
+
+/* Profile CSS */
+/* Profile CSS */
+/* Profile CSS */
+
+.sideBar{
+  min-height: 92vh;
+  background: rgb(102, 101, 101);
+  border-radius: 10px;
+}
+.infoDiv{
+  min-height: 92vh;
+  background: #cec477;
+  border-radius: 10px;
+}
+
+/* Post css */
+/* Post css */
+/* Post css */
+.create_post > button {
+  margin: 10px 0;
+  font-size: 1.3rem;  
+}
